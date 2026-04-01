@@ -65,6 +65,7 @@
             height: auto;
             border-radius: 12px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            display: block;
         }
 
         header h1 {
@@ -122,26 +123,39 @@
             padding-bottom: 10px;
             margin-bottom: 25px;
             text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .timeline-item {
             margin-bottom: 30px;
         }
 
+        .timeline-item h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.3rem;
+        }
+
+        .timeline-item h4 {
+            color: var(--text-color);
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+
         .timeline-date {
             font-size: 0.9rem;
             color: var(--primary-color);
             font-weight: bold;
-            display: inline-block;
             margin-bottom: 10px;
+            display: inline-block;
         }
 
         ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
-        ul li {
+        ul.skills-list li, ul.interests-list li {
             background-color: rgba(235, 235, 235, 0.05);
             margin-bottom: 10px;
             padding: 10px 15px;
@@ -153,9 +167,17 @@
             background-color: var(--primary-color);
             color: var(--bg-color);
             padding: 15px 30px;
+            font-size: 1.2rem;
             font-weight: bold;
             border-radius: 5px;
             margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        .portfolio-btn:hover {
+            background-color: #e6b408;
+            text-decoration: none;
+            color: var(--bg-color);
         }
 
         footer {
@@ -163,6 +185,7 @@
             padding: 40px 0;
             margin-top: 40px;
             border-top: 1px solid rgba(235, 235, 235, 0.2);
+            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -171,25 +194,25 @@
 <div class="container">
 <header>
     <div class="profile-pic-container">
-        <img src="https://i.postimg.cc/FK8qcdJP/dp-photo-joemarie.jpg?v=2" class="profile-pic">
+        <img src="https://i.postimg.cc/FK8qcdJP/dp-photo-joemarie.jpg?v=2" alt="Joemarie Navarra" class="profile-pic">
     </div>
     <h1>Joemarie Navarra</h1>
     <h2>MULTIMEDIA DESIGNER</h2>
 
     <p class="summary">
-        Results-driven Multimedia Designer with over eight years of experience in graphic design, video editing, and animation.
+        Results-driven Multimedia Designer with over eight years of experience in creating visually stunning and effective graphic design, video editing, and animation content.
     </p>
 
     <div class="contact-info">
         <span>📞 +639275669108</span>
         <span>✉️ mar2.jn7@gmail.com</span>
-        <span>📍 Iloilo, Philippines</span>
+        <span>📍 Bongco, Pototan, Iloilo</span>
     </div>
 </header>
 
 <div class="grid-layout">
+<div class="main-content">
 
-<div>
 <section>
 <h2 class="section-title">Experience</h2>
 
@@ -197,67 +220,35 @@
     <h3>Graphic Designer</h3>
     <h4>CHAINBYTES LLC</h4>
     <span class="timeline-date">2017 - 2024</span>
-    <p>Created marketing materials for social media, print, and branding in the crypto industry.</p>
+    <p>As a graphic designer at Chainbytes Bitcoin ATM, I take pride in crafting visually compelling materials for social media, marketing, and print, contributing to the brand's vibrant and dynamic presence in the cryptocurrency industry.</p>
 </div>
 
 <div class="timeline-item">
     <h3>Motion Graphics Designer</h3>
     <h4>ASTRONEX LLC (Brandbeet)</h4>
     <span class="timeline-date">2020 - Present</span>
-    <p>Produced motion graphics and animations for digital campaigns.</p>
+    <p>As a motion graphics designer at Brandbeet, I specialize in bringing brands to life through dynamic animations, contributing to impactful social media and marketing campaigns with visually compelling and engaging content.</p>
 </div>
 
 <div class="timeline-item">
     <h3>Multimedia Designer</h3>
     <h4>DISRUPTIVE ENTREPRENEURS PTE. LTD</h4>
     <span class="timeline-date">2021 - 2024</span>
-    <p>Designed visuals, videos, and digital content for online platforms.</p>
+    <p>As a Multimedia Designer at Disruptive Entrepreneurs Pte. Ltd., I'm dedicated to creating eye-catching materials for social media and blog sites, while also bringing our content to life through engaging video editing and animations for our thriving YouTube channel.</p>
 </div>
 
 <div class="timeline-item">
     <h3>Animator</h3>
     <h4>CreatorGalaxy</h4>
     <span class="timeline-date">2024 - Present</span>
-    <p>Creating animations and storytelling visuals for creative projects.</p>
+    <p>Creating animated content and motion graphics for digital and creative projects.</p>
 </div>
 
 <div class="timeline-item">
     <h3>Multimedia Designer</h3>
     <h4>Surge Marketing</h4>
     <span class="timeline-date">2025 - Present</span>
-    <p>Designing high-converting creatives for marketing campaigns.</p>
+    <p>Designing high-converting multimedia assets for marketing campaigns including social media creatives, video content, and branding materials.</p>
 </div>
 
 </section>
-</div>
-
-<div>
-<section>
-<h2 class="section-title">Software Skills</h2>
-<ul>
-<li>Adobe Photoshop</li>
-<li>Adobe Illustrator</li>
-<li>Adobe After Effects</li>
-<li>Adobe Premiere</li>
-<li>Canva</li>
-</ul>
-</section>
-
-<section>
-<h2 class="section-title">Portfolio</h2>
-<a href="https://drive.google.com/drive/folders/1CYHq0gMEg0Ap4hTEEMs5lZyA6e6UOaZL" target="_blank" class="portfolio-btn">
-View Portfolio
-</a>
-</section>
-</div>
-
-</div>
-
-<footer>
-<p>© 2026 Joemarie Navarra</p>
-</footer>
-
-</div>
-
-</body>
-</html>
