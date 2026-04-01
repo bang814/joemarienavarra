@@ -42,6 +42,7 @@
             text-decoration: underline;
         }
 
+        /* Header Section and Profile Picture */
         header {
             text-align: center;
             padding-bottom: 40px;
@@ -53,18 +54,18 @@
         }
 
         .profile-pic-container {
-            max-width: 250px;
+            max-width: 250px; /* specific size for the profile photo */
             width: 100%;
             display: flex;
             justify-content: center;
-            margin-bottom: 25px;
+            margin-bottom: 25px; /* space between photo and name */
         }
 
         .profile-pic {
             max-width: 100%;
             height: auto;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            border-radius: 12px; /* slightly soft corners for a modern feel */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* subtle shadow to add depth */
             display: block;
         }
 
@@ -105,6 +106,7 @@
             border: 1px solid var(--primary-color);
         }
 
+        /* Grid Layout */
         .grid-layout {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -117,6 +119,7 @@
             }
         }
 
+        /* Sections */
         .section-title {
             font-size: 1.8rem;
             border-bottom: 2px solid var(--primary-color);
@@ -149,6 +152,7 @@
             display: inline-block;
         }
 
+        /* Lists */
         ul {
             list-style-type: none;
             padding: 0;
@@ -162,6 +166,7 @@
             border-left: 4px solid var(--primary-color);
         }
 
+        /* Portfolio Button */
         .portfolio-btn {
             display: inline-block;
             background-color: var(--primary-color);
@@ -191,64 +196,134 @@
 </head>
 <body>
 
-<div class="container">
-<header>
-    <div class="profile-pic-container">
-        <img src="https://i.postimg.cc/FK8qcdJP/dp-photo-joemarie.jpg?v=2" alt="Joemarie Navarra" class="profile-pic">
+    <div class="container">
+        <header>
+            <div class="profile-pic-container">
+       <img src="https://i.postimg.cc/FK8qcdJP/dp-photo-joemarie.jpg" alt="Joemarie Navarra" class="profile-pic">
+            </div>
+            <h1>Joemarie Navarra</h1>
+            <h2>MULTIMEDIA DESIGNER</h2>
+            
+            <p class="summary">
+                Results-driven Multimedia Designer with over eight years of experience in creating visually stunning and effective graphic design, video editing, and animation content. Adept at utilizing industry-leading software and tools to produce engaging multimedia materials for diverse applications. Proven ability to translate creative concepts into impactful visual designs, meeting and exceeding client expectations.
+            </p>
+
+            <div class="contact-info">
+                <span>📞 +639275669108</span>
+                <span>✉️ mar2.jn7@gmail.com</span>
+                <span>📍 Bongco, Pototan, Iloilo</span>
+            </div>
+        </header>
+
+        <div class="grid-layout">
+            <div class="main-content">
+                
+                <section>
+                    <h2 class="section-title">Experience</h2>
+                    
+ 
+    
+    <div class="timeline-item">
+        <h3>Graphic Designer</h3>
+        <h4>CHAINBYTES LLC</h4>
+        <span class="timeline-date">2017 - 2024</span>
+        <p>Crafted visually compelling materials for social media, marketing, and print, contributing to the brand's strong presence in the cryptocurrency industry.</p>
     </div>
-    <h1>Joemarie Navarra</h1>
-    <h2>MULTIMEDIA DESIGNER</h2>
 
-    <p class="summary">
-        Results-driven Multimedia Designer with over eight years of experience in creating visually stunning and effective graphic design, video editing, and animation content.
-    </p>
-
-    <div class="contact-info">
-        <span>📞 +639275669108</span>
-        <span>✉️ mar2.jn7@gmail.com</span>
-        <span>📍 Bongco, Pototan, Iloilo</span>
+    <div class="timeline-item">
+        <h3>Motion Graphics Designer</h3>
+        <h4>ASTRONEX LLC (Brandbeet)</h4>
+        <span class="timeline-date">2020 - Present</span>
+        <p>Specialized in creating dynamic animations for brands, contributing to impactful social media and marketing campaigns.</p>
     </div>
-</header>
 
-<div class="grid-layout">
-<div class="main-content">
+    <div class="timeline-item">
+        <h3>Multimedia Designer</h3>
+        <h4>DISRUPTIVE ENTREPRENEURS PTE. LTD</h4>
+        <span class="timeline-date">2021 - 2024</span>
+        <p>Created engaging multimedia content including graphics, blog visuals, and video edits for digital platforms and YouTube content.</p>
+    </div>
 
-<section>
-<h2 class="section-title">Experience</h2>
+    <div class="timeline-item">
+        <h3>Animator</h3>
+        <h4>CreatorGalaxy</h4>
+        <span class="timeline-date">2024 - Present</span>
+        <p>Developing animated content and motion graphics to support creative campaigns and digital storytelling.</p>
+    </div>
 
-<div class="timeline-item">
-    <h3>Graphic Designer</h3>
-    <h4>CHAINBYTES LLC</h4>
-    <span class="timeline-date">2017 - 2024</span>
-    <p>As a graphic designer at Chainbytes Bitcoin ATM, I take pride in crafting visually compelling materials for social media, marketing, and print, contributing to the brand's vibrant and dynamic presence in the cryptocurrency industry.</p>
-</div>
-
-<div class="timeline-item">
-    <h3>Motion Graphics Designer</h3>
-    <h4>ASTRONEX LLC (Brandbeet)</h4>
-    <span class="timeline-date">2020 - Present</span>
-    <p>As a motion graphics designer at Brandbeet, I specialize in bringing brands to life through dynamic animations, contributing to impactful social media and marketing campaigns with visually compelling and engaging content.</p>
-</div>
-
-<div class="timeline-item">
-    <h3>Multimedia Designer</h3>
-    <h4>DISRUPTIVE ENTREPRENEURS PTE. LTD</h4>
-    <span class="timeline-date">2021 - 2024</span>
-    <p>As a Multimedia Designer at Disruptive Entrepreneurs Pte. Ltd., I'm dedicated to creating eye-catching materials for social media and blog sites, while also bringing our content to life through engaging video editing and animations for our thriving YouTube channel.</p>
-</div>
-
-<div class="timeline-item">
-    <h3>Animator</h3>
-    <h4>CreatorGalaxy</h4>
-    <span class="timeline-date">2024 - Present</span>
-    <p>Creating animated content and motion graphics for digital and creative projects.</p>
-</div>
-
-<div class="timeline-item">
-    <h3>Multimedia Designer</h3>
-    <h4>Surge Marketing</h4>
-    <span class="timeline-date">2025 - Present</span>
-    <p>Designing high-converting multimedia assets for marketing campaigns including social media creatives, video content, and branding materials.</p>
-</div>
-
+    <div class="timeline-item">
+        <h3>Multimedia Designer</h3>
+        <h4>Surge Marketing</h4>
+        <span class="timeline-date">2025 - Present</span>
+        <p>Designing high-converting multimedia assets for marketing campaigns, including social media creatives, video content, and branding materials.</p>
+    </div>
 </section>
+                <section style="margin-top: 50px;">
+                    <h2 class="section-title">Education</h2>
+                    
+                    <div class="timeline-item">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <h4>AMA COMPUTER COLLEGE ILOILO CAMPUS</h4>
+                        <span class="timeline-date">2010 - 2014 (Tertiary)</span>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Secondary Education</h3>
+                        <h4>WEST VISAYAN ACADEMY</h4>
+                        <span class="timeline-date">2006 - 2010</span>
+                        <p>Bongco, Pototan, Iloilo</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Elementary Education</h3>
+                        <h4>RAMON A. VILLAREAL MEMORIAL SCHOOL</h4>
+                        <span class="timeline-date">2000 - 2006</span>
+                        <p>Mambusao, Capiz</p>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="sidebar">
+                
+                <section>
+                    <h2 class="section-title">Software Skills</h2>
+                    <ul class="skills-list">
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe After Effects</li>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe Premiere</li>
+                        <li>Filmora</li>
+                        <li>Canva</li>
+                    </ul>
+                </section>
+
+                <section style="margin-top: 50px;">
+                    <h2 class="section-title">Interests</h2>
+                    <ul class="interests-list">
+                        <li>🎨 Design</li>
+                        <li>🚴 Cycling</li>
+                        <li>🎵 Music</li>
+                        <li>🎮 Games</li>
+                    </ul>
+                </section>
+
+                <section style="margin-top: 50px;">
+                    <h2 class="section-title">Resources & Portfolio</h2>
+                    <p>View my complete body of work, design resources, and past projects below.</p>
+                    <a href="https://drive.google.com/drive/folders/1CYHq0gMEg0Ap4hTEEMs5lZyA6e6UOaZL?usp=drive_link" target="_blank" class="portfolio-btn">
+                        📂 View 2020 Portfolio Drive
+                    </a>
+                </section>
+
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Joemarie Navarra. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html> 
